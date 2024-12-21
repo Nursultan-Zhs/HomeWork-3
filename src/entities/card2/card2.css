@@ -1,0 +1,45 @@
+.cardCont2{
+    position: relative;
+    margin-top: 50px;
+}
+
+.cardCont2 .price2{
+    position: relative;
+    text-decoration: line-through;
+    color: #646262;
+    margin: 0px 50px 50px ;
+    top: -43px;
+
+}
+
+.cardCont2 .price{
+    position:relative;
+    top: -23px;
+}
+
+.img1 {
+    border-radius: 20px;
+}
+
+.cardCont2 h5{
+    position: relative;
+    top: 4px;
+    margin-left: 9px;
+    color: rgb(245, 78, 78);
+}
+
+.class{
+    position: relative;
+    background-color: #eedddd;
+    height: 25px;
+    width: 55px;
+    margin-left: 105px;
+    top: -118px;
+    border-radius: 20px;
+}
+
+.cardCont2 p{
+    position: relative;
+    top: -23px;
+    margin-left: 90px;
+}

@@ -1,0 +1,14 @@
+.cardCont p{
+    position: relative;
+    top:-22px;
+    margin-left: 100px;
+}
+
+.class1{
+    position: relative;
+    top:-23px;
+}
+
+.cardCont {
+    margin-top: 50px;
+}

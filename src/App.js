@@ -1,11 +1,31 @@
+import { Route, BrowserRouter as Router, Routes } from 'react-router-dom';
+//  import { Cart, Category, Detail, Home } from './pages';
+
+import { Home } from './pages/homePage/Home';
+import { Detail } from './pages/detailPage/Detail';
+import { Cart } from './pages/cartPage/Cart';
+import { Category } from './pages/categoryPage/Category';
+
+import { Footer, Header } from './widgets';
+import './app.css'
 
 
 function App() {
   return (
-    <div>
+    <Router>
+      <Header />
+      
+      <Routes>
+        <Route path='/' element={<Home/>}/>
+        <Route path='/detail' element={<Detail/>}/>
+        <Route path='/category' element={<Category/>}/>
+        <Route path='/cart' element={<Cart/>}/>
+      </Routes>
 
-    </div>
+       <Footer />
+    </Router>
   );
 }
+
 
 export default App;
