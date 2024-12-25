@@ -1,0 +1,116 @@
+.filterCont{
+    width: 295px;
+    height: 420px;
+    background-color: rgb(251, 251, 252); 
+    position: relative;
+    margin-left: -25px;
+    margin-top: 90px;
+    border-radius: 20px;
+    border: 1px solid #ddcdcf;
+    top: -80px;
+}
+
+.prise{
+     position: relative; 
+    margin-top: 210px;
+    margin-left: 25px;
+}
+
+
+.filterCont h3{
+    /* position: absolute; */
+     padding-top: 10px; 
+    padding-left: 23px;
+}
+
+.filterCont .clas{
+    position: absolute;
+    margin-top: 335px;
+    margin-left: 23px;
+    background-color:rgb(251, 251, 252); 
+}
+
+.filterCont .cl{
+    position: relative;
+    color: #000000;
+    top: -210px;
+}
+
+.filterCont hr{
+    /* position: absolute; */
+    width: 247px;
+    margin-left: 23px;
+    margin-top: 20px;
+    background-color:#ddcdcf;
+}
+
+.filterCont .cl2{
+    position: relative;
+    color: #000000;
+    margin-top: 10px;
+    top: -210px;
+}
+
+
+.filterCont .cl3{
+    position: relative;
+    color: #000000;
+    top: -200px;
+}
+
+.filterCont .cl4{
+    position: relative;
+    color: #000000;
+    top: -190px;
+}
+
+.filterCont .cl5{
+    position: relative;
+    color: #000000;
+    top: -180px;
+}
+
+.filterCont .imgCont{
+    position: relative;
+    margin-top: 0px;
+    margin-left: 225px;
+    top: -252px;
+}
+
+.filterCont .hr{
+    width: 247px;
+    position: relative;
+    top: -180px;
+    margin-left: -0px;
+}
+
+
+.custom-slider{
+    width: 245px;
+    height: 5px;
+    background-color: #000000;
+    margin-top: 20px;
+}
+
+
+.filterButton{
+    text-align: center;
+    margin-top: 15px;
+}
+
+.filterButton button{
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: 500;
+    padding: 7px 40px;
+    background-color: #ffffff;
+    border-radius: 62px;
+    margin-bottom: 24px;
+    transition: .3s all;
+}
+
+.filterButton button:hover{
+    background-color: #000000;
+    color: #ffffff;
+}
+
